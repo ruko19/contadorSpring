@@ -1,0 +1,67 @@
+body {
+  background-color: hsl(235deg, 16%, 14%);
+  color: hsl(237deg, 18%, 59%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/src/assets/img/bg-stars.svg);
+  position: relative;
+}
+
+.container h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.container .contador {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .contador div {
+  margin: 10px;
+}
+
+.container .contador p {
+  padding: 20px;
+  background-color: hsl(236deg, 21%, 26%);
+  border-radius: 5px;
+  color: hsl(345deg, 95%, 68%);
+  font-size: 45px;
+}
+
+.container .contador h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.container .hills {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
